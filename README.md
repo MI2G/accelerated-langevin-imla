@@ -37,7 +37,7 @@ The package can then be imported in Python using ```import cvx_nn_models```.
 
 # Motion deconvolution experiments
 
-To run the sampling using IMLA, run ```motion-deconvolution/deblur_imla.py```. In the script, you can choose the respective experiment (castle, person, lizard) by setting a configuration parameter. The script contains specific hyperparameters for each image and select different blur kernels (see paper for details).
+To run the sampling using IMLA, run ```motion-deconvolution/deblur_imla_motion.py```. In the script, you can choose the respective experiment (castle, person, lizard) by setting a configuration parameter. The script contains specific hyperparameters for each image and select different blur kernels (see paper for details).
 
 
 # Poisson experiments
