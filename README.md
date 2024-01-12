@@ -21,6 +21,10 @@ with assumption-driven and data-driven convex priors.
 ### Languages
 Programming languages are Python (Motion deblurring experiments) Matlab (Poisson experiments).
 
+# Images
+
+Images are taken from the Berkeley [BSDS300 data set](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/) from [this subset](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/dataset/images/color/test-076-100.html).
+
 # Preparations
 
 To run the Matlab code, you'll need to install the library to be found in ```libs/L-BFGS-B-C```. Detailed instructions can be found in the original repository by Stephen Becker [here](https://github.com/stephenbeckr/L-BFGS-B-C). The current implementation requires the parallel toolbox, but this is not essential.
