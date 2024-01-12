@@ -1,7 +1,8 @@
 # Code for the paper "Accelerated Bayesian imaging by relaxed proximal-point Langevin sampling"
+by Teresa Klatzer, Paul Dobson, Yoann Altmann, Marcelo Pereyra, Jesús María Sanz-Serna, Konstantinos C. Zygalakis
 https://arxiv.org/abs/2308.09460
 
-The programming languages are Matlab (Poisson experiments) and Python (Motion deblurring experiments).
+Programming languages are Python (Motion deblurring experiments) Matlab (Poisson experiments).
 
 # Preparations
 
@@ -10,7 +11,7 @@ To run the Matlab code, you'll need to install the library to be found in ```lib
 To run the Python code, you'll be required to install Python 3.9 and the following packages
 
 ```
-pytorch
+torch
 torchmetrics
 tqdm
 matplotlib
@@ -18,15 +19,25 @@ mpl_toolkits
 hdf5storage
 PIL
 numpy
+scipy
 ```
 
 We recommend the use of CUDA.
 
 Further, we make use of the ```sampling-tools``` package, which can be retrieved and installed from [here](https://github.com/MI2G/sampling-tutorials).
 
+In order to use the [convex ridge regularizer](https://github.com/axgoujon/convex_ridge_regularizers) within the motion deconvolution experiments, I have created a fork [here](https://github.com/axgoujon/convex_ridge_regularizers) and an installable package.
+Download the repository and 
+```
+$ cd cvx_nn_models
+$ pip install .
+```
+The package can then be imported in Python using ```import cvx_nn_models```.
+
 
 # Motion deconvolution experiments
 
+To run the sampling using IMLA, run ```motion-deconvolution/deblur_imla.py```. In the script, you can choose the respective experiment (castle, person, lizard) by setting a configuration parameter. The script contains specific hyperparameters for each image and select different blur kernels (see paper for details).
 
 
 # Poisson experiments
