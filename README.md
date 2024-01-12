@@ -27,7 +27,7 @@ Images are taken from the Berkeley [BSDS300 data set](https://www2.eecs.berkeley
 
 # Preparations
 
-To run the Matlab code, you'll need to install the library to be found in ```libs/L-BFGS-B-C```. Detailed instructions can be found in the original repository by Stephen Becker [here](https://github.com/stephenbeckr/L-BFGS-B-C). The current implementation requires the parallel toolbox, but this is not essential.
+To run the Matlab code, you'll need to install the library included as a submodule in ```libs/L-BFGS-B-C```. Detailed instructions can be found in the original repository by Stephen Becker [here](https://github.com/stephenbeckr/L-BFGS-B-C). The sampling code requires the parallel toolbox, but this is not essential.
 
 To run the Python code, you'll be required to install Python 3.9 and the following packages
 
