@@ -22,7 +22,7 @@ numpy
 scipy
 ```
 
-We recommend the use of CUDA.
+We recommend the use of CUDA, but it is not required. Watch out for statements like ```device = 'cuda:0'``` and replace them by ```device = 'cpu'``` as required.
 
 Further, we make use of the ```sampling-tools``` package, which can be retrieved and installed from [here](https://github.com/MI2G/sampling-tutorials).
 
@@ -37,7 +37,13 @@ The package can then be imported in Python using ```import cvx_nn_models```.
 
 # Motion deconvolution experiments
 
-To run the sampling using IMLA, run ```motion-deconvolution/deblur_imla_motion.py```. In the script, you can choose the respective experiment (castle, person, lizard) by setting a configuration parameter. The script contains specific hyperparameters for each image and select different blur kernels (see paper for details).
+In the scripts, you can choose the respective experiment (castle, person, lizard) by setting a configuration parameter. The script contains specific hyperparameters for each image and select different blur kernels (see paper for details).
+
+To run the sampling using IMLA, run ```motion-deconvolution/deblur_imla_motion.py```.
+
+To run the sampling using SKROCK, run ```motion-deconvolution/deblur_skrock_motion.py```.
+
+To run the sampling using ULA, run ```motion-deconvolution/deblur_ula_motion.py```.
 
 
 # Poisson experiments
