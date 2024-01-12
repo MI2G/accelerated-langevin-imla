@@ -2,6 +2,21 @@
 by Teresa Klatzer, Paul Dobson, Yoann Altmann, Marcelo Pereyra, Jesús María Sanz-Serna, Konstantinos C. Zygalakis
 https://arxiv.org/abs/2308.09460
 
+### Abstract
+This paper presents a new accelerated proximal Markov chain Monte Carlo methodology to perform Bayesian inference in imaging inverse problems with an underlying convex geometry. The proposed strategy takes the form of a stochastic relaxed proximal-point iteration that admits two complementary interpretations. For models that are smooth or regularised by Moreau-Yosida smoothing,
+the algorithm is equivalent to an implicit midpoint discretisation of an overdamped Langevin diffusion targeting the posterior distribution of interest. This discretisation is asymptotically unbiased for
+Gaussian targets and shown to converge in an accelerated manner for any target that is κ-strongly
+log-concave (i.e., requiring in the order of √
+κ iterations to converge, similarly to accelerated optimisation schemes), comparing favorably to [M. Pereyra, L. Vargas Mieles, K.C. Zygalakis, SIAM
+J. Imaging Sciences, 13,2 (2020), pp. 905-935] which is only provably accelerated for Gaussian
+targets and has bias. For models that are not smooth, the algorithm is equivalent to a Leimkuhler–Matthews discretisation of a Langevin diffusion targeting a Moreau-Yosida approximation of the
+posterior distribution of interest, and hence achieves a significantly lower bias than conventional
+unadjusted Langevin strategies based on the Euler-Maruyama discretisation. For targets that are
+κ-strongly log-concave, the provided non-asymptotic convergence analysis also identifies the optimal time step which maximizes the convergence speed. The proposed methodology is demonstrated
+through a range of experiments related to image deconvolution with Gaussian and Poisson noise,
+with assumption-driven and data-driven convex priors. 
+
+### Languages
 Programming languages are Python (Motion deblurring experiments) Matlab (Poisson experiments).
 
 # Preparations
