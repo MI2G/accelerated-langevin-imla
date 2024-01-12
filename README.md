@@ -2,6 +2,8 @@
 by Teresa Klatzer, Paul Dobson, Yoann Altmann, Marcelo Pereyra, Jesús María Sanz-Serna, Konstantinos C. Zygalakis
 https://arxiv.org/abs/2308.09460
 
+For any question, help needed, or problem found with the source code please contact [us](mailto:t.klatzer@sms.ed.ac.uk).
+
 ### Abstract
 This paper presents a new accelerated proximal Markov chain Monte Carlo methodology to perform Bayesian inference in imaging inverse problems with an underlying convex geometry. The proposed strategy takes the form of a stochastic relaxed proximal-point iteration that admits two complementary interpretations. For models that are smooth or regularised by Moreau-Yosida smoothing,
 the algorithm is equivalent to an implicit midpoint discretisation of an overdamped Langevin diffusion targeting the posterior distribution of interest. This discretisation is asymptotically unbiased for
@@ -18,6 +20,10 @@ with assumption-driven and data-driven convex priors.
 
 ### Languages
 Programming languages are Python (Motion deblurring experiments) Matlab (Poisson experiments).
+
+# Images
+
+Images are taken from the Berkeley [BSDS300 data set](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/) from [this subset](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300/html/dataset/images/color/test-076-100.html).
 
 # Preparations
 
@@ -75,7 +81,7 @@ To run the sampling using Reflected MYULA, run ```poisson/poisson_deblurring_TV_
 
 To run the sampling using Reflected PMALA, run ```poisson/poisson_deblurring_TV_rpmala.m```.
 
-Evaluation scripts and required chains / data to reproduce figures in the paper available upon request (e-mail t.klatzer@sms.ed.ac.uk).
+Evaluation scripts and required chains / data to reproduce figures in the paper available upon [request](mailto:t.klatzer@sms.ed.ac.uk).
 
 # 1D experiments
 
@@ -83,4 +89,4 @@ Code to sample distributions for Figure 3 can be found in ```one_d_examples/one_
 
 # Citation
 
-If you find our code helpful in your resarch or work, please cite our [paper](https://arxiv.org/abs/2308.09460).
+If you find our code helpful in your research or work, please cite our [paper](https://arxiv.org/abs/2308.09460).
