@@ -45,6 +45,11 @@ To run the sampling using SKROCK, run ```motion-deconvolution/deblur_skrock_moti
 
 To run the sampling using ULA, run ```motion-deconvolution/deblur_ula_motion.py```.
 
+To run the sampling using PnP-ULA, run ```motion-deconvolution/PnP_ULA_motion.py```.
+
+To compute the MAP solution, run ```motion-deconvolution/deblur_map.py```.
+
+
 
 # Poisson experiments
 To run the sampling using the Reflected Implicit Midpoint Algorithm (R-IMLA), run ```poisson/grid_rimla.m```. Results will be saved in an automatically created directory called ```poisson/results```.
