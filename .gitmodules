@@ -1,0 +1,3 @@
+[submodule "libs/L-BFGS-B-C"]
+	path = libs/L-BFGS-B-C
+	url = git@github.com:stephenbeckr/L-BFGS-B-C.git
