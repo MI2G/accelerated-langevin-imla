@@ -2,6 +2,8 @@
 by Teresa Klatzer, Paul Dobson, Yoann Altmann, Marcelo Pereyra, Jesús María Sanz-Serna, Konstantinos C. Zygalakis
 https://arxiv.org/abs/2308.09460
 
+For any question/help needed/bug report please contact [us](mailto:t.klatzer@sms.ed.ac.uk).
+
 ### Abstract
 This paper presents a new accelerated proximal Markov chain Monte Carlo methodology to perform Bayesian inference in imaging inverse problems with an underlying convex geometry. The proposed strategy takes the form of a stochastic relaxed proximal-point iteration that admits two complementary interpretations. For models that are smooth or regularised by Moreau-Yosida smoothing,
 the algorithm is equivalent to an implicit midpoint discretisation of an overdamped Langevin diffusion targeting the posterior distribution of interest. This discretisation is asymptotically unbiased for
@@ -75,7 +77,7 @@ To run the sampling using Reflected MYULA, run ```poisson/poisson_deblurring_TV_
 
 To run the sampling using Reflected PMALA, run ```poisson/poisson_deblurring_TV_rpmala.m```.
 
-Evaluation scripts and required chains / data to reproduce figures in the paper available upon request (e-mail t.klatzer@sms.ed.ac.uk).
+Evaluation scripts and required chains / data to reproduce figures in the paper available upon [request](mailto:t.klatzer@sms.ed.ac.uk).
 
 # 1D experiments
 
