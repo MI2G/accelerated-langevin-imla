@@ -3,7 +3,6 @@ import torch
 import hdf5storage
 import numpy as np
 from PIL import Image, ImageOps
-import matplotlib.pyplot as plt
 
 import sampling_tools as st
 import cvx_nn_models   
