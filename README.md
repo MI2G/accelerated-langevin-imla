@@ -76,3 +76,7 @@ To run the sampling using Reflected MYULA, run ```poisson/poisson_deblurring_TV_
 To run the sampling using Reflected PMALA, run ```poisson/poisson_deblurring_TV_rpmala.m```.
 
 Evaluation scripts and required chains / data to reproduce figures in the paper available upon request (e-mail t.klatzer@sms.ed.ac.uk).
+
+# Citation
+
+If you find our code helpful in your resarch or work, please cite our [paper](https://arxiv.org/abs/2308.09460).
