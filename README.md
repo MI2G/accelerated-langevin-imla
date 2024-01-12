@@ -54,15 +54,15 @@ The package can then be imported in Python using ```import cvx_nn_models```.
 
 In the scripts, you can choose the respective experiment (castle, person, lizard) by setting a configuration parameter. The script contains specific hyperparameters for each image and select different blur kernels (see paper for details).
 
-To run the sampling using IMLA, run ```motion-deconvolution/deblur_imla_motion.py```.
+To run the sampling using IMLA, run ```motion_deconvolution/deblur_imla_motion.py```.
 
-To run the sampling using SKROCK, run ```motion-deconvolution/deblur_skrock_motion.py```.
+To run the sampling using SKROCK, run ```motion_deconvolution/deblur_skrock_motion.py```.
 
-To run the sampling using ULA, run ```motion-deconvolution/deblur_ula_motion.py```.
+To run the sampling using ULA, run ```motion_deconvolution/deblur_ula_motion.py```.
 
-To run the sampling using PnP-ULA, run ```motion-deconvolution/PnP_ULA_motion.py```.
+To run the sampling using PnP-ULA, run ```motion_deconvolution/PnP_ULA_motion.py```.
 
-To compute the MAP solution, run ```motion-deconvolution/deblur_map.py```.
+To compute the MAP solution, run ```motion_deconvolution/deblur_map.py```.
 
 
 
@@ -76,6 +76,10 @@ To run the sampling using Reflected MYULA, run ```poisson/poisson_deblurring_TV_
 To run the sampling using Reflected PMALA, run ```poisson/poisson_deblurring_TV_rpmala.m```.
 
 Evaluation scripts and required chains / data to reproduce figures in the paper available upon request (e-mail t.klatzer@sms.ed.ac.uk).
+
+# 1D experiments
+
+Code to sample distributions for Figure 3 can be found in ```one_d_examples/one_d_prox.m```.
 
 # Citation
 
