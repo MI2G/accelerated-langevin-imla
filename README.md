@@ -90,3 +90,6 @@ Code to sample distributions for Figure 3 can be found in ```one_d_examples/one_
 # Citation
 
 If you find our code helpful in your research or work, please cite our [paper](https://arxiv.org/abs/2308.09460).
+
+# Funding
+We acknowledge funding from projects [BOLT](https://www.macs.hw.ac.uk/~mp71/bolt.html), [BLOOM](https://www.macs.hw.ac.uk/~mp71/bloom.html) and [LEXCI](https://www.macs.hw.ac.uk/~mp71/lexci.html): This work was supported by the UK Research and Innovation (UKRI) Engineering and Physical Sciences Research Council (EPSRC) grants EP/V006134/1 , EP/V006177/1 and EP/T007346/1, EP/W007673/1 and EP/W007681/1. JMS has been funded by Ministerio de Ciencia e Innovación (Spain) through project PID2022-136585NB-C21, MCIN/AEI/10.13039/501100011033/FEDER, UE.
