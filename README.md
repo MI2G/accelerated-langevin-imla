@@ -47,7 +47,7 @@ We recommend the use of CUDA, but it is not required. Watch out for statements l
 
 Further, we make use of the ```sampling-tools``` package, which can be retrieved and installed from [here](https://github.com/MI2G/sampling-tutorials).
 
-In order to use the [convex ridge regularizer](https://github.com/axgoujon/convex_ridge_regularizers) within the motion deconvolution experiments, I have created a fork [here](https://github.com/axgoujon/convex_ridge_regularizers) and an installable package.
+In order to use the [convex ridge regularizer](https://github.com/axgoujon/convex_ridge_regularizers) within the motion deconvolution experiments, I have created a fork [here](https://github.com/freyyia/convex_ridge_regularizers) and an installable package.
 Download the repository and 
 ```
 $ cd cvx_nn_models
